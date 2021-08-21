@@ -1,0 +1,43 @@
+input,select,option{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+input[type=text],input[type=password],select{
+    background-color: rgb(58, 6, 6);
+    color: blanchedalmond;
+    border: 1px groove blanchedalmond;
+    font-size: 100%;
+    letter-spacing: 0.2em;
+}
+
+input[type=submit]{
+    background-color:rgb(58, 6, 6);
+    color:blanchedalmond;
+    border: 1px solid blanchedalmond;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+input[type=submit]:hover{
+    background-color: blanchedalmond;
+    color:rgb(58, 6, 6);
+    font-weight: bolder;
+}
+fieldset{
+    font-size: 20px;
+    border-radius: 30px;
+    border:3px double blanchedalmond;
+    padding: 20px;
+    margin: 0 30%;
+}
+
+.error {
+    color:greenyellow;
+    margin: 30px 0 0 30vh;
+}

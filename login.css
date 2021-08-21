@@ -1,0 +1,82 @@
+
+body{
+    margin: 0;
+    padding:0;
+    background-color: rgb(58, 6, 6);
+    color: blanchedalmond;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+}
+
+.title{
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.main{
+    font-size: 20px;
+    display:grid;
+    margin:30px 30%;
+    grid-template-columns:45% 55%;
+}
+
+/* form */
+
+input,select{
+    width: 25vw;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing:border-box;
+    display: block;
+
+}
+input::placeholder{
+    padding: 5px;
+    color: black;
+    background-color: goldenrod;
+    text-align: center;
+}
+input[type=text],input[type=password],select{
+    background-color: rgb(58, 6, 6);
+    color: blanchedalmond;
+    border: 1px groove blanchedalmond;
+    font-size: 100%;
+    letter-spacing: 0.2em;
+}
+
+input[type=submit]{
+    background-color: blanchedalmond;
+    color: rgb(58, 6, 6);
+    border: 1px solid blanchedalmond;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 20px;
+}
+input[type=submit]:hover{
+    background-color: rgb(58, 6, 6);
+    color: blanchedalmond;
+    font-variant: small-caps;
+}
+
+fieldset{
+    font-size: 20px;
+    border-radius: 30px;
+    border:3px double blanchedalmond;
+    padding: 20px;
+    margin: 0 30%;
+    text-align: center;
+}
+
+.heading{
+    background-color:rgb(58, 6, 6);
+    padding:10px;
+    color: blanchedalmond;
+    border: 2px double blanchedalmond;
+    border-radius: 50%;
+    
+
+}
+.error {
+    color:greenyellow;
+    margin: 30px 0 0 30vh;
+}

@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; 
+    background-color: rgb(58, 6, 6);
+    text-align: center;
+
+}
+.container {
+    background-color: rgb(58, 6, 6);
+    border: 10px solid blanchedalmond;
+    border-radius: 20px;
+    color: blanchedalmond;
+    width: 50vw;
+    margin:auto;
+}
+.label{
+    color: blanchedalmond;
+    background-color: rgb(58, 6, 6);
+    border: 2px solid blanchedalmond;
+    padding: 5px 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+.details{
+    font-size: 20px;
+    background-color:rgb(58, 6, 6);
+    color:blanchedalmond;
+    border: 2px solid blanchedalmond;
+    border-radius: 25px;
+    letter-spacing: 0.1em;
+    line-height:30px;
+    text-align: left;
+    padding: 0 0 0 25px;
+    margin: 10px 20px;
+}
+
+.main{
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    justify-content: center;
+    padding: 20px 25%;
+}
+
+.btn{
+    text-align: center;
+    background-color: rgb(58, 6, 6);
+    color: blanchedalmond;
+    border: 2px solid blanchedalmond;
+    border-radius: 10px;
+    margin: 0 0 10px 0;   
+    height: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover{
+    background-color: blanchedalmond;
+    color: rgb(58, 6, 6);
+    cursor:pointer;
+    font-variant: small-caps;
+}
+
+.main p:nth-child(1) {
+    font-weight: bold;
+}
+
+.result p{
+    font-size: 20px;
+    
+}
+
+.error {
+    color:greenyellow;
+    margin: 30px 0 0 30vh;
+}
+
+@media print {
+    .button {
+        display: none;
+    }
+}
