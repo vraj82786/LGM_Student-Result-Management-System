@@ -33,8 +33,16 @@
     {
         $username=$_POST["userid"];
         $password=$_POST["password"];
-
-        $sql = "SELECT user_id FROM user WHERE user_id='$username' and password = '$password'";
+        if ($username == "admin" && $password =="123" ){
+            $_SESSION['login']=$username;
+            header("Location: dashboard.php");
+        }
+        else{
+            echo '<script language="javascript">';
+            echo 'alert("Invalid Username or Password")';
+            echo '</script>';
+        }
+       /* $sql = "SELECT user_id FROM user WHERE user_id='$username' and password = '$password'";
         $result=mysqli_query($conn,$sql);
         $count=mysqli_num_rows($result);
 
@@ -46,6 +54,7 @@
             echo 'alert("Invalid Username or Password")';
             echo '</script>';
         }
+        */
         
     }
 ?>
