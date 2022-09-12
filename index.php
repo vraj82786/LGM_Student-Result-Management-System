@@ -22,17 +22,5 @@
             </ul>
         </div>
     </div>
-    <div class="con_cont">
-    <div class="cont_div">
-        "The Governor as Chancellor plays a very constructive role in the administration of the Universities. 
-        The Chancellor being the Governor can help to insulate the Universities from unnecessary governmental interference and safeguard their autonomy." <br>
-        <b> Shri. Bhagat Singh Koshyari</b>
-    </div>
-    <div class="con_div">
-        The Savitribai Phule Pune University has been diligently pursuing the mission of the University – Conservation, Creation, Advancement and Dissemination of knowledge through its 18 schools consisting of 58 departments and centres.
-        Referred to as the ‘Oxford of the East’ the University has been <br>
-        <b>Prof.(Dr.) Karbhari Vishwanath Kale</b>
-    </div>
-    </div>
 </body>
 </html>
