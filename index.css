@@ -137,16 +137,3 @@ footer{
       height:5%;
       margin-left: 30px;
   }
-.cont_div{
-    width: 10rem;
-    height:20rem;
-    padding:5rem;
-}
-.con_cont{
-    margin:50rem;
-    border:2px solid #fff;
-    display:flex;
-    justify-content:center;
-    align-items:center;
- 
-}
